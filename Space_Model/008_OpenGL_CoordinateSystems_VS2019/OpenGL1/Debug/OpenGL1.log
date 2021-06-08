@@ -1,0 +1,7 @@
+﻿  Application.cpp
+C:\Users\mariy\Downloads\008_OpenGL_CoordinateSystems_VS2019\008_OpenGL_CoordinateSystems_VS2019\OpenGL1\Application.cpp(64,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\mariy\Downloads\008_OpenGL_CoordinateSystems_VS2019\008_OpenGL_CoordinateSystems_VS2019\OpenGL1\Application.cpp(65,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\mariy\Downloads\008_OpenGL_CoordinateSystems_VS2019\008_OpenGL_CoordinateSystems_VS2019\OpenGL1\Application.cpp(137,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\mariy\Downloads\008_OpenGL_CoordinateSystems_VS2019\008_OpenGL_CoordinateSystems_VS2019\OpenGL1\Application.cpp(346,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\mariy\Downloads\008_OpenGL_CoordinateSystems_VS2019\008_OpenGL_CoordinateSystems_VS2019\OpenGL1\Application.cpp(398,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  OpenGL1.vcxproj -> C:\Users\mariy\Downloads\008_OpenGL_CoordinateSystems_VS2019\008_OpenGL_CoordinateSystems_VS2019\Debug\008_OpenGL_CoordinateSystems.exe

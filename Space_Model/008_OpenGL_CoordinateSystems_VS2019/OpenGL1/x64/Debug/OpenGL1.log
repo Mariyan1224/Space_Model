@@ -1,0 +1,27 @@
+﻿  Application.cpp
+C:\Users\mariy\Downloads\008_OpenGL_CoordinateSystems_VS2019\008_OpenGL_CoordinateSystems_VS2019\OpenGL1\Application.cpp(197,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(3579,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mariy\Downloads\008_OpenGL_CoordinateSystems_VS2019\008_OpenGL_CoordinateSystems_VS2019\OpenGL1\Application.cpp(136): message : see reference to function template instantiation 'std::unique_ptr<IndexBuffer,std::default_delete<IndexBuffer>> std::make_unique<IndexBuffer,unsigned int(&)[6],size_t,0>(unsigned int (&)[6],size_t &&)' being compiled
+  BufferLayout.cpp
+  IndexBuffer.cpp
+  Main.cpp
+  Shader.cpp
+  stb_image.cpp
+  Texture.cpp
+  VertexArray.cpp
+C:\Users\mariy\Downloads\008_OpenGL_CoordinateSystems_VS2019\008_OpenGL_CoordinateSystems_VS2019\OpenGL1\VertexArray.cpp(32,55): warning C4312: 'type cast': conversion from 'const unsigned int' to 'void *' of greater size
+  VertexBuffer.cpp
+  Generating Code...
+  glad.c
+Application.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "private: void __cdecl Application::Render(void)" (?Render@Application@@AEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol glfwGetProcAddress referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+C:\Users\mariy\Downloads\008_OpenGL_CoordinateSystems_VS2019\008_OpenGL_CoordinateSystems_VS2019\OpenGL1\deps\glfw\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\mariy\Downloads\008_OpenGL_CoordinateSystems_VS2019\008_OpenGL_CoordinateSystems_VS2019\x64\Debug\008_OpenGL_CoordinateSystems.exe : fatal error LNK1120: 10 unresolved externals
