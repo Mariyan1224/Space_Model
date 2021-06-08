@@ -14,7 +14,7 @@ uniform mat4 orbit_model;
 
 void main()
 {
-    gl_Position = projection * view *  model *  vec4(aEarthPos, 1.0) ;
+    gl_Position = projection * view * orbit_model * model *  vec4(aEarthPos, 1.0) ;
 
     FragPos = vec3(model * vec4(aEarthPos, 1.0));
     Normal = mat3(transpose(inverse(model))) * aEarthNormalCoords;  

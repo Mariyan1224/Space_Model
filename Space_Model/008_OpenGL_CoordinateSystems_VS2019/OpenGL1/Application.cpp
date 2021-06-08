@@ -10,10 +10,10 @@
 #include "Shader.h"
 #include "VertexArray.h"
 #include "VertexBuffer.h"
+#include "Icosphere.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-#include "../../../icosphere/src/Icosphere.h"
 
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
@@ -149,8 +149,10 @@ void Application::Run()
     glfwTerminate();
 }
 
-Icosphere earth_sphere(0.2f, 5, true);
+
 Icosphere solar_sphere(0.5f, 5, true); // Sun diameter is 109 times bigger than Earth`s => 21.8f
+Icosphere earth_sphere(0.2f, 5, true);
+
 
 void Application::Init()
 {  
@@ -395,14 +397,14 @@ void Application::Render()
 
     model = glm::translate(model, glm::vec3(-2.0f, 0.0f, 0.0f)); // distance from Sun
 
-    float angle =glfwGetTime() * 50.f; // orbit speed
+    float angle =glfwGetTime() * 50.f; 
     //model = glm::rotate(model, glm::radians(80.f), glm::vec3(-42.0f, 75.0f, 45.0f)); //-82.0f, 35.0f, 150.0f  -72.0f, 60.0f, 80.0f
   //  model = glm::rotate(model, glm::radians(angle), glm::vec3(12.0f, 3.0f, 20.0f)); //12.0f, 3.0f, 20.0f
     model = glm::rotate(model, glm::radians( 160.f), glm::vec3(-1.5f, 0.0f, 0.0f)); 
     model = glm::rotate(model, glm::radians(angle), glm::vec3(0.0f, 0.0f, 1.0f));
 
     glm::mat4 orbit_model = glm::mat4(1.0f);
-    orbit_model = glm::rotate(sun_model, glm::radians(float(glfwGetTime() * 10.f)), glm::vec3(0.0f, 0.0f, 1.0f));
+    orbit_model = glm::rotate(sun_model, glm::radians(float(glfwGetTime() * 10.f)), glm::vec3(0.0f, 0.0f, 1.0f)); // orbit speed and direction
 
     _earthShader->setFloatMat4("model", model);
     _earthShader->setFloatMat4("orbit_model", orbit_model);

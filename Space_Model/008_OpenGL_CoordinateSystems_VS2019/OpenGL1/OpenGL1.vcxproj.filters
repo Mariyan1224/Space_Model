@@ -45,7 +45,7 @@
     <ClCompile Include="Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\icosphere\src\Icosphere.cpp">
+    <ClCompile Include="C:\Users\mariy\Downloads\icosphere\src\Icosphere.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -71,7 +71,7 @@
     <ClInclude Include="Texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\icosphere\src\Icosphere.h">
+    <ClInclude Include="C:\Users\mariy\Downloads\icosphere\src\Icosphere.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

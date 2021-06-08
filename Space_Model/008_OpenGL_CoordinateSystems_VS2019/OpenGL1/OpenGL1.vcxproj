@@ -148,9 +148,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\icosphere\src\Icosphere.cpp" />
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="BufferLayout.cpp" />
+    <ClCompile Include="C:\Users\mariy\Downloads\icosphere\src\Icosphere.cpp" />
     <ClCompile Include="deps\glad\src\glad.c" />
     <ClCompile Include="IndexBuffer.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -161,9 +161,9 @@
     <ClCompile Include="VertexBuffer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\icosphere\src\Icosphere.h" />
     <ClInclude Include="Application.h" />
     <ClInclude Include="BufferLayout.h" />
+    <ClInclude Include="C:\Users\mariy\Downloads\icosphere\src\Icosphere.h" />
     <ClInclude Include="IndexBuffer.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="Texture.h" />
